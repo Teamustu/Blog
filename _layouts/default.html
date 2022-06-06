@@ -1,0 +1,27 @@
+<!-- default layout for pages -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- viewport for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png"/> -->
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+
+
+    <div>
+    <!-- <div style="background-color: {{ page.color }}"> -->
+    {{ content }}
+    </div>
+    <!-- {% include footer.html %} -->
+
+        <script src="/assets/vendor/jquery-rails/javascripts/jquery3.min.js"></script>
+        <script src="/assets/vendor/popper.js/javascripts/popper.js"></script>
+        <script src="/assets/vendor/bootstrap/javascripts/bootstrap.min.js"></script>
+  </body>
+</html>
